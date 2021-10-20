@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://pixabay.com/api';
+const BASE_URL = 'https://pixabay.com/api/';
 const API_KEY = '23121474-dc8d36b74d53a13d4dcab8680';
 
 
@@ -17,4 +17,5 @@ const fetchPixabayImgs = async ({ q, page }) => {
 };
 
 
-export default {fetchPixabayImgs};
+// eslint-disable-next-line import/no-anonymous-default-export
+export default { fetchPixabayImgs };
